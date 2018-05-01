@@ -1,0 +1,112 @@
+    body {
+        margin: 0;
+        font-family: "Lato", sans-serif;
+        font-size: 13px;
+        color: #777;
+        line-height: 1.8;
+        letter-spacing: 1.2px;
+        max-width: 100%; 
+        background-color :rgb(23,25,37);
+        animation: focus 1s ease-in-out;
+        filter: blur(0px);
+    }
+
+    #container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    @keyframes focus { 
+      0%   {filter:blur(5px);}
+      30%  {filter:blur(4px);}
+      60%  {filter:blur(2px);}
+      80%  {filter:blur(1px);}
+      100% {filter:blur(0px);}
+    } 
+
+    .top{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -50;
+        mix-blend-mode: lighten;
+        min-height: 100%;
+        min-width: 100%;
+        width: auto;
+        height: auto;
+    }
+    svg{
+        top: -100px;
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        margin: auto;
+    } 
+
+    .enter_button{
+        fill:#7CCFDD;
+    }
+
+    .enter{
+        fill:#FFFFFF;
+        stroke-miterlimit:10;
+    }
+
+    .enter_button:hover{
+        fill:rgb(23,25,37);
+        transform: rotate3d(-1,1,0,deg);
+    }
+
+    .enter_button:active, .enter:active{
+        animation: button_click 1s;
+    }
+
+    @keyframes button_click{
+        0% {transform: translate(0,0px);}
+        50%{transform: translate(0,10px);}
+        100% {transform: translate(0,-0px);}
+    }
+
+    #frame {
+      width: 1600px;
+      height: 480px;
+      position: absolute;
+      top: 50%;
+      margin-top: -240px;
+      background-color :rgb(23,25,37);
+      overflow: hidden;
+    }
+
+    #moon {
+      position: absolute;
+      top: -200px;
+      left: -200px;
+      opacity: .7;
+    }
+    .footer1{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height:5%;
+        background-color: #333;
+        opacity: 0.4;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+    }
+    .footer1 p, a:active, a:visited{
+        opacity: 0.4;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+    
