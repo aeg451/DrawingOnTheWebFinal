@@ -4,6 +4,9 @@
 
 ### By: Alexa Goldman
 
+I have changed my project last minute. I have created four pages that revolve around my love for space. The first page is my nagivation page. Using javascript, I have a png logo of my "branding" that moves horizontally from left to right. There is a navigation bar on top, an "enter the site" svg button and the footer has the links to the next pages.  The next page is the moon page. I have created the phases of the moon with svgs and have a video as the background. In the center I have again my logo and if you click the planet, it will lead you to the rocket page. The rocket page has again a video background and uses css animation to move the two rockets across the screen. There is also a navigation bar on top that you can use to get to the saturn page. The saturn page was inpired from looking around at some of my old p5 classwork from interactive computing. We always use particle systems so I created a system of stars that move on the canvas and saturn in the middle and also moves. This was created using Three.JS.
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 I will be graduating in a few short weeks and I still lack a reliable job post-grad. For the past three semesters I have taken several courses that have driven me to want to pursue front-end engineering. Although I have a decent portfolio to show future employers, it can be better. Drawing on the Web has shown me many new techniques to make a better portfolio. I want to make a brand for myself and with this final project I'm going to take advantage of that. 
 
